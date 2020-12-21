@@ -1,11 +1,11 @@
 ---
 weight: 1
-title: "Theme Documentation - Basics"
+title: "Documentation Basic 1: Theme Overview"
 date: 2020-03-06T21:29:01+08:00
 lastmod: 2020-03-06T21:29:01+08:00
 draft: false
-author: "Dillon"
-authorLink: "https://zdong1995.com"
+author: "zdong1995"
+authorLink: "https://dongxiaoran.com"
 description: "Discover what the Hugo - calmato theme is all about and the core-concepts behind it."
 resources:
 - name: "featured-image"

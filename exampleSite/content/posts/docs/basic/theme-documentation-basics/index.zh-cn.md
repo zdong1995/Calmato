@@ -1,11 +1,11 @@
 ---
 weight: 1
-title: "主题文档 - 基本概念"
+title: "主题文档基础 1： 主题介绍"
 date: 2020-03-06T21:40:32+08:00
 lastmod: 2020-03-06T21:40:32+08:00
 draft: false
-author: "Dillon"
-authorLink: "https://zdong1995.com"
+author: "zdong1995"
+authorLink: "https://dongxiaoran.com"
 description: "探索 Hugo - calmato 主题的全部内容和背后的核心概念."
 resources:
 - name: "featured-image"

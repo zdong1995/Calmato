@@ -1,11 +1,11 @@
 ---
 weight: 3
-title: "Theme Documentation - Built-in Shortcodes"
+title: "Shortcode 1: Built-in Shortcodes"
 date: 2020-03-04T16:29:41+08:00
 lastmod: 2020-03-04T16:29:41+08:00
 draft: false
-author: "Dillon"
-authorLink: "https://zdong1995.com"
+author: "zdong1995"
+authorLink: "https://dongxiaoran.com"
 description: "Hugo provides multiple built-in shortcodes for author convenience and to keep your markdown content clean."
 resources:
 - name: "featured-image"

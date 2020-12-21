@@ -68,11 +68,11 @@ enableEmoji = true
         title = ""
         weight = 3
       [[languages.en.menu.main]]
-        identifier = "documentation"
+        identifier = "docs"
         pre = ""
         post = ""
         name = "Docs"
-        url = "/categories/documentation/"
+        url = "/posts/docs/"
         title = ""
         weight = 4
       [[languages.en.menu.main]]
@@ -91,6 +91,46 @@ enableEmoji = true
         url = "https://github.com/zdong1995/calmato"
         title = "GitHub"
         weight = 6
+      # sub-menu options:
+      # option 1: sub-menu for post to link to categories
+      [[languages.en.menu.main]]
+        identifier = "tutorial"
+        pre = ""
+        post = ""
+        name = "Tutorial"
+        parent = "posts"
+        url = "/categories/documentation"
+        title = ""
+        weight = 1
+      [[languages.en.menu.main]]
+        identifier = "markdown"
+        pre = ""
+        post = ""
+        name = "Markdown"
+        parent = "posts"
+        url = "/categories/markdown/"
+        title = ""
+        weight = 2
+
+      # option 2: sub-menu for docs to link to sub-pages
+      [[languages.en.menu.main]]
+        identifier = "basic"
+        pre = ""
+        post = ""
+        name = "Basic"
+        parent = "docs"
+        url = "posts/docs/basic/"
+        title = ""
+        weight = 1
+      [[languages.en.menu.main]]
+        identifier = "shortcode"
+        pre = ""
+        post = ""
+        name = "Shortcode"
+        parent = "docs"
+        url = "posts/docs/shortcode/"
+        title = ""
+        weight = 2
     [languages.en.params]
       # site description
       description = "About calmato Theme"
@@ -269,10 +309,10 @@ enableEmoji = true
         title = ""
         weight = 3
       [[languages.zh-cn.menu.main]]
-        identifier = "documentation"
+        identifier = "docs"
         pre = ""
         name = "文档"
-        url = "/categories/documentation/"
+        url = "/post/docs/"
         title = ""
         weight = 4
       [[languages.zh-cn.menu.main]]
@@ -291,6 +331,49 @@ enableEmoji = true
         url = "https://github.com/zdong1995/calmato"
         title = "GitHub"
         weight = 6
+      [[languages.zh-cn.menu.main]]
+        identifier = "tutorial"
+        # you can add extra information before the name (HTML format is supported), such as icons
+        pre = ""
+        # you can add extra information after the name (HTML format is supported), such as icons
+        post = ""
+        name = "Tutorial"
+        parent = "posts"
+        url = "/categories/documentation/"
+        # title will be shown when you hover on this menu link.
+        title = ""
+        weight = 1
+      [[languages.zh-cn.menu.main]]
+        identifier = "markdown"
+        # you can add extra information before the name (HTML format is supported), such as icons
+        pre = ""
+        # you can add extra information after the name (HTML format is supported), such as icons
+        post = ""
+        name = "Markdown"
+        parent = "posts"
+        url = "/categories/markdown"
+        # title will be shown when you hover on this menu link.
+        title = ""
+        weight = 2
+      # sub-menu for docs to link to sub-pages
+      [[languages.zh-cn.menu.main]]
+        identifier = "basic"
+        pre = ""
+        post = ""
+        name = "基础"
+        parent = "docs"
+        url = "/docs/basic"
+        title = ""
+        weight = 1
+      [[languages.zh-cn.menu.main]]
+        identifier = "shortcode"
+        pre = ""
+        post = ""
+        name = "Shortcode"
+        parent = "docs"
+        url = "/docs/shortcode"
+        title = ""
+        weight = 2
     [languages.zh-cn.params]
       # 网站描述
       description = "关于 calmato 主题"
