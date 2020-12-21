@@ -6,8 +6,3 @@ command = "cd exampleSite && hugo --themesDir ../.."
 HUGO_VERSION = "0.74.3"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
-
-[[headers]]
-for = "/*"
-[headers.values]
-Access-Control-Allow-Origin = "*"
