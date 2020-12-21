@@ -1,5 +1,5 @@
 ---
-title: "About LoveIt"
+title: "About calmato"
 date: 2019-08-02T11:04:49+08:00
 draft: false
 
@@ -10,18 +10,18 @@ math:
 ---
 
 {{< style "img { height: 1.25rem; }" >}}
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/dillonzq/LoveIt?style=flat-square)](https://github.com/dillonzq/LoveIt/releases)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/zdong1995/calmato?style=flat-square)](https://github.com/zdong1995/calmato/releases)
 [![Hugo](https://img.shields.io/badge/Hugo-%5E0.62.0-ff4088?style=flat-square&logo=hugo)](https://gohugo.io/)
-[![License](https://img.shields.io/github/license/dillonzq/LoveIt?style=flat-square)](https://github.com/dillonzq/LoveIt/blob/master/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/dillonzq/LoveIt?style=social)](https://github.com/dillonzq/LoveIt)
-[![GitHub forks](https://img.shields.io/github/forks/dillonzq/LoveIt?style=social)](https://github.com/dillonzq/LoveIt/fork)
+[![License](https://img.shields.io/github/license/zdong1995/calmato?style=flat-square)](https://github.com/zdong1995/calmato/blob/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/zdong1995/calmato?style=social)](https://github.com/zdong1995/calmato)
+[![GitHub forks](https://img.shields.io/github/forks/zdong1995/calmato?style=social)](https://github.com/zdong1995/calmato/fork)
 {{< /style >}}
 
-> [:(far fa-kiss-wink-heart fa-fw): LoveIt](https://github.com/dillonzq/LoveIt) is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/) developed by [Dillon](https://dillonzq.com).
+> [:(far fa-kiss-wink-heart fa-fw): calmato](https://github.com/zdong1995/calmato) is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/) developed by [Dillon](https://zdong1995.com).
 >
 > It is based on the original [LeaveIt Theme](https://github.com/liuzc/LeaveIt) and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt).
 
-![Hugo Theme LoveIt](/images/Apple-Devices-Preview.png "Hugo Theme LoveIt")
+![Hugo Theme calmato](/images/Apple-Devices-Preview.png "Hugo Theme calmato")
 
 ### Features
 
@@ -85,9 +85,9 @@ math:
 
 ### License
 
-LoveIt is licensed under the **MIT** license.
+calmato is licensed under the **MIT** license.
 
-Check the [LICENSE file](https://github.com/dillonzq/LoveIt/blob/master/LICENSE) for details.
+Check the [LICENSE file](https://github.com/zdong1995/calmato/blob/master/LICENSE) for details.
 
 Thanks to the authors of following resources included in the theme:
 
