@@ -163,7 +163,6 @@ header {
     }
 
     .menu {
-      overflow: hidden;
       white-space: nowrap;
 
       .menu-inner {
@@ -172,6 +171,7 @@ header {
 
       .menu-item {
         margin: 0 .5rem;
+        display: inline-block;
 
         &.delimiter {
           border-left: 1.5px solid $global-font-color;
@@ -187,6 +187,36 @@ header {
 
         &.search {
           margin: 0 -.5rem 0 0;
+        }
+
+        .dropdown-menu { /* property of dropdown window*/
+          visibility: hidden;
+          position: absolute;
+          min-width: 100px;
+          top: 50%;
+          transition: 0.2s 1s;
+          list-style: none;
+          padding: 0;
+          background: $header-background-color;
+          border-top: 1px solid $global-border-color;
+          white-space:nowrap;
+          border: 1px solid #ddd;
+          border-bottom: none;
+          transition: 0.2s 0.2s; /* delay of seconds on hover off */
+          z-index: 50;
+        }
+
+        &:hover .dropdown-menu {
+          visibility: visible;
+          transition-delay: 0s; /* react immediately on hover */
+        }
+  
+        .drop-items { /* items in the dropdown window*/
+          border-bottom: 1px solid #ddd;
+          padding: 0.5em;
+          height: 20px;
+          display: flex;
+          align-items: center;
         }
       }
 

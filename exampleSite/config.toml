@@ -91,6 +91,30 @@ enableEmoji = true
         url = "https://github.com/zdong1995/calmato"
         title = "GitHub"
         weight = 6
+      [[languages.en.menu.main]]
+        identifier = "tutorial"
+        # you can add extra information before the name (HTML format is supported), such as icons
+        pre = ""
+        # you can add extra information after the name (HTML format is supported), such as icons
+        post = ""
+        name = "Tutorial"
+        parent = "posts"
+        url = "/posts/tutorial"
+        # title will be shown when you hover on this menu link.
+        title = ""
+        weight = 1
+      [[languages.en.menu.main]]
+        identifier = "markdown"
+        # you can add extra information before the name (HTML format is supported), such as icons
+        pre = ""
+        # you can add extra information after the name (HTML format is supported), such as icons
+        post = ""
+        name = "Markdown"
+        parent = "posts"
+        url = "/posts/markdown"
+        # title will be shown when you hover on this menu link.
+        title = ""
+        weight = 2
     [languages.en.params]
       # site description
       description = "About calmato Theme"
@@ -291,6 +315,30 @@ enableEmoji = true
         url = "https://github.com/zdong1995/calmato"
         title = "GitHub"
         weight = 6
+      [[languages.zh-cn.menu.main]]
+        identifier = "tutorial"
+        # you can add extra information before the name (HTML format is supported), such as icons
+        pre = ""
+        # you can add extra information after the name (HTML format is supported), such as icons
+        post = ""
+        name = "Tutorial"
+        parent = "posts"
+        url = "/posts/tutorial"
+        # title will be shown when you hover on this menu link.
+        title = ""
+        weight = 1
+      [[languages.zh-cn.menu.main]]
+        identifier = "markdown"
+        # you can add extra information before the name (HTML format is supported), such as icons
+        pre = ""
+        # you can add extra information after the name (HTML format is supported), such as icons
+        post = ""
+        name = "Markdown"
+        parent = "posts"
+        url = "/posts/markdown"
+        # title will be shown when you hover on this menu link.
+        title = ""
+        weight = 2
     [languages.zh-cn.params]
       # 网站描述
       description = "关于 calmato 主题"
