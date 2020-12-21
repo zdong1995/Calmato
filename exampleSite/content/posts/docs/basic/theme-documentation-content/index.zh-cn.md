@@ -1,11 +1,11 @@
 ---
 weight: 2
-title: "主题文档 - 内容"
+title: "主题文档基础 2： 内容"
 date: 2020-03-05T16:30:05+08:00
 lastmod: 2020-03-05T16:30:05+08:00
 draft: false
-author: "Dillon"
-authorLink: "https://zdong1995.com"
+author: "zdong1995"
+authorLink: "https://dongxiaoran.com"
 description: "了解如何在 calmato 主题中快速, 直观地创建和组织内容."
 resources:
 - name: "featured-image"

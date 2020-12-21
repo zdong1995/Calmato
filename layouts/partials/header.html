@@ -40,7 +40,7 @@
                         <ul class="dropdown-menu">
                             {{ range .Children }}
                             <li class="drop-items">
-                                <a href="{{ $url }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if (urls.Parse $url).Host }} rel="noopener noreffer" target="_blank"{{ end }}>
+                                <a href="{{ .URL | absLangURL | safeURL }}">
                                     {{- .Pre | safeHTML }} {{ .Name }} {{ .Post | safeHTML -}}
                                 </a>
                             </li>
