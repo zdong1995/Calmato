@@ -64,6 +64,17 @@
       }
     }
   }
+}
+
+.subsection[posts] {
+  .subsection-profile {
+    @include transform(translateY(0));
+    padding-top: 2rem;
+  }
+
+  .subsection-avatar img {
+    width: 6rem;
+  }
 
   .summary {
     padding-top: 1rem;
