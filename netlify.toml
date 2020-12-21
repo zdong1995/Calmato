@@ -4,5 +4,4 @@ command = "cd exampleSite && hugo --themesDir ../.."
 
 [build.environment]
 HUGO_VERSION = "0.74.3"
-HUGO_ENV = "production"
-HUGO_ENABLEGITINFO = "true"
+HUGO_THEME = "repo"

@@ -5,7 +5,7 @@ date: 2020-03-04T16:29:41+08:00
 lastmod: 2020-03-04T16:29:41+08:00
 draft: false
 author: "Dillon"
-authorLink: "https://dillonzq.com"
+authorLink: "https://zdong1995.com"
 description: "Hugo provides multiple built-in shortcodes for author convenience and to keep your markdown content clean."
 resources:
 - name: "featured-image"
@@ -119,7 +119,7 @@ Example `instagram` input:
 
 The rendered output looks like this:
 
-{{< instagram BWNjjyYFxVx hidecaption >}}
+
 
 ## 5 param
 

@@ -1,7 +1,7 @@
 {
-  "name": "loveit-src",
-  "version": "0.2.0",
-  "description": "LoveIt theme source file",
+  "name": "calmato-src",
+  "version": "1.0.0",
+  "description": "calmato theme source file",
   "private": true,
   "dependencies": {},
   "devDependencies": {
@@ -36,16 +36,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dillonzq/LoveIt.git"
+    "url": "git+https://github.com/zdong1995/calmato"
   },
   "keywords": [
     "hugo",
     "theme"
   ],
-  "author": "Dillon",
+  "author": "zdong1995",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dillonzq/LoveIt/issues"
+    "url": "https://github.com/zdong1995/calmato/issues"
   },
-  "homepage": "https://github.com/dillonzq/LoveIt#readme"
+  "homepage": "https://github.com/zdong1995/calmato#readme"
 }

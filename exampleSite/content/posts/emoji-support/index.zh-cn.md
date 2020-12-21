@@ -5,8 +5,8 @@ date: 2019-10-01T17:55:28+08:00
 lastmod: 2019-10-01T17:55:28+08:00
 draft: false
 author: "Dillon"
-authorLink: "https://dillonzq.com"
-description: "Hugo 和 LoveIt 中的 Emoji 的用法指南."
+authorLink: "https://zdong1995.com"
+description: "Hugo 和 calmato 中的 Emoji 的用法指南."
 resources:
 - name: "featured-image"
   src: "featured-image.jpg"
