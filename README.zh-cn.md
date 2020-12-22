@@ -1,23 +1,22 @@
-# calmato 主题 | Hugo [![Netlify Status](https://api.netlify.com/api/v1/badges/e60303f2-862c-4342-bf59-7c9adb10812e/deploy-status)](https://app.netlify.com/sites/hugo-calmato/deploys)
+# calmato 主题 | Hugo [![Netlify Status](https://api.netlify.com/api/v1/badges/bea56ccf-e63f-44db-b4be-6ea0bfc86c00/deploy-status)](https://app.netlify.com/sites/calmato/deploys)
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/zdong1995/calmato?style=flat-square)](https://github.com/zdong1995/calmato/releases)
 [![Hugo](https://img.shields.io/badge/Hugo-%5E0.62.0-ff4088?style=flat-square&logo=hugo)](https://gohugo.io/)
 [![License](https://img.shields.io/github/license/zdong1995/calmato?style=flat-square)](https://github.com/zdong1995/calmato/blob/master/LICENSE)
-[![CircleCI](https://img.shields.io/circleci/build/github/zdong1995/calmato/develop?label=CI&style=flat-square&logo=circleci)](https://app.circleci.com/pipelines/github/zdong1995/calmato)
 
 [English README](https://github.com/zdong1995/calmato/blob/master/README.md) | 简体中文说明
 
 > [calmato](https://github.com/zdong1995/calmato) 是一个**简洁**、**优雅**且**高效**的 [Hugo](https://gohugo.io/) 博客主题。
 
-它的原型基于 [LeaveIt 主题](https://github.com/liuzc/LeaveIt) 和 [KeepIt 主题](https://github.com/Fastbyte01/KeepIt)。
+它的原型基于 [LoveIt 主题](https://github.com/dillonzq/LoveIt) 和 [KeepIt 主题](https://github.com/Fastbyte01/KeepIt)。
 
 由于三个主题外观的相似性，如果你对于它们的不同之处有疑问，请阅读 [为什么选择 calmato](#为什么选择-calmato)，以便你能选择最适合你的一个。
 
 ![Hugo 主题 calmato](https://github.com/zdong1995/calmato/raw/master/images/Apple-Devices-Preview.png)
 
-## 主题[预览](https://hugocalmato.com/zh-cn/)
+## 主题[预览](https://calmato.netlify.app/zh-cn/)
 
-为了直观地浏览主题特性，这里有一个基于 **calmato** 主题渲染的 [预览网站](https://hugocalmato.com/zh-cn/)。
+为了直观地浏览主题特性，这里有一个基于 **calmato** 主题渲染的 [预览网站](https://calmato.netlify.app/zh-cn/)。
 
 ## 为什么选择 calmato
 
@@ -45,7 +44,10 @@
 * 支持多种**注释**的 shortcode
 * 支持自定义样式的 shortcode
 * 支持所有第三方库的 **CDN**
-* ...
+* **新功能**: 增加对多层下拉菜单及子类页面的支持 [v1.1.0](https://github.com/zdong1995/calmato/releases/tag/1.1.0)
+
+![Submenu and Subsection](https://github.com/zdong1995/calmato/raw/master/images/submenu.gif)
+
 
 所以，如果你更偏好 calmato 主题的设计语言和自由度，如果你想便捷地使用扩展的 Font Awesome 图标，如果你想在文章内嵌数学公式、流程图、音乐或是 Bilibili 视频，
 那么，calmato 主题可能是更适合你。
@@ -111,7 +113,7 @@
 * 支持基于 [cookieconsent](https://github.com/osano/cookieconsent) 的 **Cookie 许可横幅**
 * ...
 
-## [文档](https://hugocalmato.com/zh-cn/categories/documentation/)
+## [文档](https://calmato.netlify.app/zh-cn/categories/documentation/)
 
 在本地构建文档:
 
@@ -137,7 +139,7 @@ calmato 支持下列语言:
 * 越南语
 * [贡献一种新的语言](https://github.com/zdong1995/calmato/pulls)
 
-[语言兼容性](https://hugocalmato.com/zh-cn/theme-documentation-basics/#language-compatibility)
+[语言兼容性](https://calmato.netlify.app/zh-cn/theme-documentation-basics/#language-compatibility)
 
 ## [路线图](https://github.com/zdong1995/calmato/projects/1)
 
@@ -178,14 +180,12 @@ calmato 主题中用到了以下项目，感谢它们的作者：
 
 ## 作者
 
-[Dillon](https://zdong1995.com)
+[zdong1995](https://dongxiaoran.com)
 
 ## 赞助支持
 
 如果你喜爱这个主题, 请考虑给我买杯咖啡 ☕️.
 
 * [PayPal](https://paypal.me/zdong1995)
-* [支付宝](https://github.com/zdong1995/calmato/raw/master/images/Alipay.jpg)
-* [微信支付](https://github.com/zdong1995/calmato/raw/master/images/Wechat.jpg)
 
 谢谢! ❤️

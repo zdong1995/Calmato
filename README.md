@@ -1,24 +1,23 @@
-# Calmato Theme | Hugo [![Netlify Status](https://api.netlify.com/api/v1/badges/e60303f2-862c-4342-bf59-7c9adb10812e/deploy-status)](https://app.netlify.com/sites/hugo-calmato/deploys)
+# Calmato Theme | Hugo [![Netlify Status](https://api.netlify.com/api/v1/badges/bea56ccf-e63f-44db-b4be-6ea0bfc86c00/deploy-status)](https://app.netlify.com/sites/calmato/deploys)
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/zdong1995/calmato?style=flat-square)](https://github.com/zdong1995/calmato/releases)
 [![Hugo](https://img.shields.io/badge/Hugo-%5E0.62.0-ff4088?style=flat-square&logo=hugo)](https://gohugo.io/)
 [![License](https://img.shields.io/github/license/zdong1995/calmato?style=flat-square)](https://github.com/zdong1995/calmato/blob/master/LICENSE)
-[![CircleCI](https://img.shields.io/circleci/build/github/zdong1995/calmato/develop?label=CI&style=flat-square&logo=circleci)](https://app.circleci.com/pipelines/github/zdong1995/calmato)
 
 English README | [简体中文说明](https://github.com/zdong1995/calmato/blob/master/README.zh-cn.md)
 
 > **Calmato** is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/).
 
-It is based on the original [LeaveIt Theme](https://github.com/liuzc/LeaveIt) and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt).
+It is based on the original [LoveIt Theme](https://github.com/dillonzq/LoveIt) and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt).
 
 Since the three themes have a similar look, if you have questions about their differences,
 read [Why choose calmato](#why-choose-calmato) so that you can choose the one that works best for you.
 
 ![Hugo Theme calmato](https://github.com/zdong1995/calmato/raw/master/images/Apple-Devices-Preview.png)
 
-## [Demo Site](https://hugocalmato.com/)
+## [Demo Site](https://calmato.netlify.app)
 
-To see this theme in action, here is a live [demo site](https://hugocalmato.com/) which is rendered with **calmato** theme.
+To see this theme in action, here is a live [demo site](https://calmato.netlify.app) which is rendered with **calmato** theme.
 
 ## Why choose calmato
 
@@ -46,7 +45,9 @@ Compared to the original LeaveIt theme and the KeepIt theme, the calmato theme h
 * Kinds of **admonitions** shortcode supported
 * Custom style shortcodes supported
 * **CDN** for all third-party libraries supported
-* ...
+* **New feature**: Add support to multi-level menu and sub-section pages in [v1.1.0](https://github.com/zdong1995/calmato/releases/tag/1.1.0)
+
+![Submenu and Subsection](https://github.com/zdong1995/calmato/raw/master/images/submenu.gif)
 
 In short,
 if you prefer the design language and freedom of the calmato theme,
@@ -116,7 +117,7 @@ I hope you will calmato ❤️!
 * **Cookie consent banner** supported by [cookieconsent](https://github.com/osano/cookieconsent)
 * ...
 
-## [Documentation](https://hugocalmato.com/categories/documentation/)
+## [Documentation](https://calmato.netlify.app/categories/documentation/)
 
 Build Documentation Locally:
 
@@ -142,7 +143,7 @@ calmato supports the following languages:
 * Vietnamese
 * [Contribute with a new language](https://github.com/zdong1995/calmato/pulls)
 
-[Languages Compatibility](https://hugocalmato.com/theme-documentation-basics/#language-compatibility)
+[Languages Compatibility](https://calmato.netlify.app/theme-documentation-basics/#language-compatibility)
 
 ## [Roadmap](https://github.com/zdong1995/calmato/projects/1)
 
@@ -183,14 +184,12 @@ Thanks to the authors of following resources included in the theme:
 
 ## Author
 
-[Dillon](https://zdong1995.com)
+[zdong1995](https://dongxiaoran.com)
 
 ## Sponsor
 
 If you enjoy the theme, please consider buying me a coffee ☕️.
 
 * [PayPal](https://paypal.me/zdong1995)
-* [Alipay](https://github.com/zdong1995/calmato/raw/master/images/Alipay.jpg)
-* [Wechat](https://github.com/zdong1995/calmato/raw/master/images/Wechat.jpg)
 
 Thanks! ❤️
