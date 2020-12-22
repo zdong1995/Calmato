@@ -11,11 +11,12 @@
   .card-item {
     font-size: .875rem;
     text-align: left;
-    width: 45%;
+    height: 40%;
+    width: 40%;
     display: flex;
     align-items: flex-start;
     margin-top: 2rem;
-    min-height: 10rem;
+    height: 20rem;
     padding: 0 2%;
     position: relative;
 
@@ -43,11 +44,13 @@
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
-  padding: 2%;
+  padding: 3%;
+  border-radius: 10px;
   box-shadow: (0 0 10px rgba(0, 0, 0, .1));
   margin-top: 3%;
   flex-wrap: wrap;
   margin-top: .4rem;
+  line-height: 130%;
 
   [theme=dark] & {
     color: $global-font-color-dark;
@@ -57,11 +60,10 @@
 }
 
 .archive-item-link {
-  min-width: 10%;
-  max-width: 90%;
+  display: inline-block;
   overflow: hidden;
-  white-space:nowrap;
   text-overflow: ellipsis;
+  text-align: justify;
 
   &:hover {
     color: $global-link-hover-color;
@@ -77,23 +79,22 @@
   }
 }
 
-.archive-item-date {
-  width: 10%;
-  text-align: right;
-  color: $global-font-secondary-color;
+.archive-item-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 
-  [theme=dark] & {
-    color: $global-font-secondary-color-dark;
+  &:hover {
+    color: $global-link-hover-color;
+    background-color: transparent;
   }
-}
-
-.archive-item-meta {
-  width: 10em;
-  text-align: left;
-  color: $global-font-secondary-color;
 
   [theme=dark] & {
-    color: $global-font-secondary-color-dark;
+    color: $global-link-color-dark;
+
+    &:hover {
+      color: $global-link-hover-color-dark;
+    }
   }
 }
 

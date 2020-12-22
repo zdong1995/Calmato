@@ -37,8 +37,8 @@
   }
 
   .post-title {
-    font-size: 1.2rem;
-    line-height: 120%;
+    font-size: 1.1rem;
+    line-height: 110%;
     margin: 0.4rem 0;
   }
 
@@ -58,9 +58,11 @@
   }
 
   .post-single {
-    font-size: 1.2rem;
-    padding: 3%;
+    font-size: 1.15rem;
+    line-height: 140%;
+    padding: 2%;
     color: $global-font-color;
+    border-radius: 10px;
     background: $global-background-color;
     box-shadow: (0 0 10px rgba(0, 0, 0, .1));
     margin-top: 2%;
@@ -73,8 +75,8 @@
   }
 
   .post-meta {
-    font-size: 1.0rem;
-    margin-top: .3rem;
+    font-size: 0.9rem;
+    margin-top: .2rem;
     width: 100%;
     overflow: hidden;
     color: $global-font-secondary-color;
