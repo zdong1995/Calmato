@@ -30,10 +30,9 @@
                                     {{- .Title -}}
                                 </a>
                                 <span class="archive-item-date">
-                                    {{- $.Site.Params.section.dateFormat | default "01-02" | .Date.Format -}}
+                                    <i class="far fa-calendar-alt fa-fw"></i> {{- $.Site.Params.section.dateFormat | default "01-02" | .Date.Format -}}
                                 </span>
                             </article>
-                            
                         {{- end -}}
                     {{- end -}}
                 {{- end -}}
