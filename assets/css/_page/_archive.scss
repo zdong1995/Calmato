@@ -1,6 +1,9 @@
 .archive {
+  list-style: none;
+  
   .single-title {
     text-align: right;
+    list-style: none;
   }
 
   .group-title {
@@ -121,4 +124,26 @@
 
   @import "../_partial/_archive/terms";
   @import "../_partial/_archive/tags";
+
+  .list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .item{
+      /* flex: 0 0 24% 该属性等价于 flex:none;width:24% */
+    flex: 0 0 40%;
+    height: 30%;
+    margin-bottom: 30%;
+  }
+  
+  .item-fill{
+    flex: 0 0 40%;
+    height:0;
+  }
+  /* 消除最后一行多余边距 */
+  .list .item:nth-last-child(-n+4){
+    margin-bottom: 0;
+  }
 }

@@ -312,7 +312,7 @@ enableEmoji = true
         identifier = "docs"
         pre = ""
         name = "文档"
-        url = "/post/docs/"
+        url = "/posts/docs/"
         title = ""
         weight = 4
       [[languages.zh-cn.menu.main]]
@@ -337,7 +337,7 @@ enableEmoji = true
         pre = ""
         # you can add extra information after the name (HTML format is supported), such as icons
         post = ""
-        name = "Tutorial"
+        name = "文档教程"
         parent = "posts"
         url = "/categories/documentation/"
         # title will be shown when you hover on this menu link.
@@ -349,7 +349,7 @@ enableEmoji = true
         pre = ""
         # you can add extra information after the name (HTML format is supported), such as icons
         post = ""
-        name = "Markdown"
+        name = "Markdown 语法"
         parent = "posts"
         url = "/categories/markdown"
         # title will be shown when you hover on this menu link.
@@ -362,7 +362,7 @@ enableEmoji = true
         post = ""
         name = "基础"
         parent = "docs"
-        url = "/docs/basic"
+        url = "/posts/docs/basic"
         title = ""
         weight = 1
       [[languages.zh-cn.menu.main]]
@@ -371,7 +371,7 @@ enableEmoji = true
         post = ""
         name = "Shortcode"
         parent = "docs"
-        url = "/docs/shortcode"
+        url = "/posts/docs/shortcode"
         title = ""
         weight = 2
     [languages.zh-cn.params]
