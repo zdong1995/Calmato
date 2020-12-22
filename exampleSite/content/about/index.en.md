@@ -1,6 +1,6 @@
 ---
-title: "About calmato"
-date: 2019-08-02T11:04:49+08:00
+title: "About Calmato"
+date: 2020-12-20T11:04:49+08:00
 draft: false
 
 lightgallery: true
@@ -17,9 +17,9 @@ math:
 [![GitHub forks](https://img.shields.io/github/forks/zdong1995/calmato?style=social)](https://github.com/zdong1995/calmato/fork)
 {{< /style >}}
 
-> [:(far fa-kiss-wink-heart fa-fw): calmato](https://github.com/zdong1995/calmato) is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/) developed by [Dillon](https://zdong1995.com).
+> [:(far fa-paw fa-fw): calmato](https://github.com/zdong1995/calmato) is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/) developed by [zdong1995](https://zdong1995.com).
 >
-> It is based on the original [LeaveIt Theme](https://github.com/liuzc/LeaveIt) and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt).
+> It is based on the original [LoveIt Theme](https://github.com/dillonzq/LoveIt) and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt).
 
 ![Hugo Theme calmato](/images/Apple-Devices-Preview.png "Hugo Theme calmato")
 

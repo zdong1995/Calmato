@@ -1,7 +1,7 @@
 ---
 weight: 2
 title: "Documentation Basic 2: Content"
-date: 2020-03-05T15:58:26+08:00
+date: 2020-12-21T15:58:26+08:00
 lastmod: 2020-03-05T15:58:26+08:00
 draft: false
 author: "zdong1995"
@@ -182,7 +182,11 @@ resources:
 ```
 {{< /admonition >}}
 
-## 3 Content Summaries
+## 3 Menu Organize
+
+Hugo have support to multi-level nested menu and content directory.
+
+## 4 Content Summaries
 
 **calmato** theme uses the summary of the content to display abstract information in the home page. Hugo can generate summaries of your content.
 
@@ -229,11 +233,11 @@ Because there are multiple ways in which a summary can be specified it is useful
 It is not recommended to include rich text block elements in the summary, which will cause typographic errors. Such as code blocks, pictures, tables, etc.
 {{< /admonition >}}
 
-## 4 Basic Markdown Syntax
+## 5 Basic Markdown Syntax
 
 This part is shown in the [basic markdown syntax page](../basic-markdown-syntax/).
 
-## 5 Extended Markdown Syntax {#extended-markdown-syntax}
+## 6 Extended Markdown Syntax {#extended-markdown-syntax}
 
 **calmato** theme has some extended syntax elements for you to write articles.
 

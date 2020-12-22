@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://calmato.netlify.app"
 # [en, zh-cn, fr, pl, ...] determines default content language
 # [en, zh-cn, fr, pl, ...] 设置默认的语言
 defaultContentLanguage = "en"
@@ -18,7 +18,7 @@ title = "calmato"
 enableRobotsTXT = true
 # whether to use git commit log
 # 是否使用 git 信息
-enableGitInfo = true
+enableGitInfo = false
 # whether to use emoji code
 # 是否使用 emoji 代码
 enableEmoji = true
@@ -633,7 +633,7 @@ enableEmoji = true
     fontawesome = true
     # whether to show link to Raw Markdown content of the content
     # 是否显示原始 Markdown 文档内容的链接
-    linkToMarkdown = true
+    linkToMarkdown = false
     # whether to show the full text content in RSS
     # 是否在 RSS 中显示全文内容
     rssFullText = false
@@ -962,7 +962,7 @@ enableEmoji = true
 [author]
   name = "zdong1995"
   email = ""
-  link = ""
+  link = "https://github.com/zdong1995"
 
 # Sitemap config
 # 网站地图配置
