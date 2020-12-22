@@ -13,7 +13,7 @@
 
   .featured-image-preview {
     width: 100%;
-    padding: 40% 0 0;
+    padding: 35% 0 0;
     position: relative;
     margin: 0.6rem auto;
     @include transition(transform 0.4s ease);
@@ -37,7 +37,7 @@
   }
 
   .post-title {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     line-height: 120%;
     margin: 0.4rem 0;
   }
@@ -49,13 +49,12 @@
     border-radius: 15px;
     box-shadow: (0 0 15px rgba(0, 0, 0, .1));
     margin-top: 15%;
-  }
 
-  [theme=dark] & {
-    color: $global-font-color-dark;
-    border-bottom: 1px dashed $global-border-color-dark;
-    background: $global-background-color-dark;
-    box-shadow: (0 0 40px rgba(94, 104, 125, .3));
+    [theme=dark] & {
+      color: $global-font-color-dark;
+      background: $global-background-color-dark;
+      box-shadow: (0 0 40px rgba(64, 67, 72, 0.3));
+    }
   }
 
   .post-count {
@@ -69,6 +68,9 @@
     }
   }
 
+  @import "../_partial/_archive/terms";
+  @import "../_partial/_archive/tags";
+
   .list{
     display: flex;
     justify-content: space-between;
@@ -76,6 +78,7 @@
   }
 
   .item{
+      /* flex: 0 0 24% 该属性等价于 flex:none;width:24% */
     flex: 0 0 45%;
     height: 30%;
     margin-bottom: 30%;
