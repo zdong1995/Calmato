@@ -77,14 +77,18 @@
   }
 
   .summary {
-    padding-top: 1rem;
-    padding-bottom: .8rem;
+    display: block;
+    padding: 3%;
     color: $global-font-color;
-    border-bottom: 1px dashed $global-border-color;
+    background: $global-background-color;
+    border-radius: 15px;
+    box-shadow: (0 0 10px rgba(0, 0, 0, .1));
+    margin-top: 3%;
 
     [theme=dark] & {
       color: $global-font-color-dark;
-      border-bottom: 1px dashed $global-border-color-dark;
+      background: $global-background-color-dark;
+      box-shadow: (0 0 4px rgba(204, 207, 211, 0.3));
     }
 
     .featured-image-preview {

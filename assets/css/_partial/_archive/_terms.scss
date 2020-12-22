@@ -21,7 +21,6 @@
 
     .card-item-wrapper {
       width: 100%;
-      overflow: hidden;
 
       .card-item-title {
         font-size: 1.2rem;
@@ -44,7 +43,15 @@
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
-  margin: .25rem 0 .25rem 1.5rem;
+  padding: 2%;
+  box-shadow: (0 0 10px rgba(0, 0, 0, .1));
+  margin-top: 3%;
+
+  [theme=dark] & {
+    color: $global-font-color-dark;
+    background: $global-background-color-dark;
+    box-shadow: (0 0 4px rgba(204, 207, 211, 0.3));
+  }
 }
 
 .archive-item-link {
