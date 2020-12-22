@@ -46,6 +46,8 @@
   padding: 2%;
   box-shadow: (0 0 10px rgba(0, 0, 0, .1));
   margin-top: 3%;
+  flex-wrap: wrap;
+  margin-top: .4rem;
 
   [theme=dark] & {
     color: $global-font-color-dark;
@@ -57,7 +59,8 @@
 .archive-item-link {
   min-width: 10%;
   overflow: hidden;
-  word-wrap: break-word;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 
   &:hover {
     color: $global-link-hover-color;
@@ -74,8 +77,18 @@
 }
 
 .archive-item-date {
-  width: 7em;
+  width: 8em;
   text-align: right;
+  color: $global-font-secondary-color;
+
+  [theme=dark] & {
+    color: $global-font-secondary-color-dark;
+  }
+}
+
+.archive-item-meta {
+  width: 10em;
+  text-align: left;
   color: $global-font-secondary-color;
 
   [theme=dark] & {

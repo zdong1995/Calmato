@@ -57,7 +57,22 @@
     }
   }
 
-  .post-count {
+  .post-single {
+    font-size: 1.2rem;
+    padding: 3%;
+    color: $global-font-color;
+    background: $global-background-color;
+    box-shadow: (0 0 10px rgba(0, 0, 0, .1));
+
+    [theme=dark] & {
+      color: $global-font-color-dark;
+      background: $global-background-color-dark;
+      box-shadow: (0 0 4px rgba(204, 207, 211, 0.3));
+    }
+  }
+
+  .post-meta {
+    font-size: 1.0rem;
     margin-top: .3rem;
     width: 100%;
     overflow: hidden;

@@ -25,13 +25,25 @@
                             <!-- TODO -->
                             <!-- Currently no need to appear nested menu -->
                         {{- else -}}
-                            <article class="archive-item">
-                                <a href="{{ .RelPermalink }}" class="archive-item-link">
-                                    {{- .Title -}}
-                                </a>
-                                <span class="archive-item-date">
-                                    <i class="far fa-calendar-alt fa-fw"></i> {{- $.Site.Params.section.dateFormat | default "01-02" | .Date.Format -}}
-                                </span>
+                            <article class="post-single">
+                                <div>
+                                    <a href="{{ .RelPermalink }}" class="archive-item-link">
+                                        {{- .Title -}}</br>
+                                    </a>
+                                </div>
+                                <div class="post-meta">
+                                    <i class="far fa-calendar-alt fa-fw"></i>&nbsp;{{- $.Site.Params.section.dateFormat | default "01-02" | .Date.Format -}}&nbsp;
+                                    <i class="fas fa-pencil-alt fa-fw"></i>&nbsp;{{ T "wordCount" .WordCount }}&nbsp;
+                                    <i class="far fa-clock fa-fw"></i>&nbsp;{{ T "readingTime" .ReadingTime }}&nbsp;
+                                    {{- with .Params.tags -}}
+                                        &nbsp;<i class="fas fa-tags fa-fw"></i>&nbsp;
+                                        {{- range $index, $value := . -}}
+                                            &nbsp;{{- if gt $index 0 }},&nbsp;{{ end -}}
+                                            {{- $tag := partialCached "function/path.html" $value $value | printf "/tags/%v" | $.Site.GetPage -}}
+                                            <a class="post-meta" href="{{ $tag.RelPermalink }}">{{ $tag.Title }}</a>
+                                        {{- end -}}
+                                    {{- end -}}
+                                </div>
                             </article>
                         {{- end -}}
                     {{- end -}}
