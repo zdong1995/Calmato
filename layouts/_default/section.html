@@ -35,12 +35,14 @@
                                     <i class="far fa-calendar-alt fa-fw"></i>&nbsp;{{- $.Site.Params.section.dateFormat | default "01-02" | .Date.Format -}}&nbsp;
                                     <i class="fas fa-pencil-alt fa-fw"></i>&nbsp;{{ T "wordCount" .WordCount }}&nbsp;
                                     <i class="far fa-clock fa-fw"></i>&nbsp;{{ T "readingTime" .ReadingTime }}&nbsp;
+                                </div>
+                                <div class="post-meta">
                                     {{- with .Params.tags -}}
                                         &nbsp;<i class="fas fa-tags fa-fw"></i>&nbsp;
                                         {{- range $index, $value := . -}}
                                             &nbsp;{{- if gt $index 0 }},&nbsp;{{ end -}}
                                             {{- $tag := partialCached "function/path.html" $value $value | printf "/tags/%v" | $.Site.GetPage -}}
-                                            <a class="post-meta" href="{{ $tag.RelPermalink }}">{{ $tag.Title }}</a>
+                                            <a class="post-tags" href="{{ $tag.RelPermalink }}">{{ $tag.Title }}</a>
                                         {{- end -}}
                                     {{- end -}}
                                 </div>
