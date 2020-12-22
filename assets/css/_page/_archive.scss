@@ -8,6 +8,117 @@
     margin-bottom: 1rem;
   }
 
+  .featured-image-preview {
+    width: 100%;
+    padding: 30% 0 0;
+    position: relative;
+    margin: 0.6rem auto;
+    @include transition(transform 0.4s ease);
+
+    img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      @include object-fit(none);
+    }
+
+    img.lazyloaded {
+      @include object-fit(cover);
+    }
+
+    &:hover {
+      @include transform(scale(1.01));
+    }
+  }
+
+  .post-title {
+    font-size: 1.25rem;
+    line-height: 140%;
+    margin: 0.4rem 0;
+  }
+
+  .content {
+    @include box(vertical);
+    -webkit-line-clamp: 3;
+    margin-top: .3rem;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    @include overflow-wrap(break-word);
+    color: $global-font-secondary-color;
+
+    [theme=dark] & {
+      color: $global-font-secondary-color-dark;
+    }
+
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+      font-size: 1rem;
+      line-height: 1.5;
+      display: inline;
+
+      &::after {
+        content: "\A";
+        white-space: pre;
+      }
+    }
+
+    h2 {
+      font-size: 1.125rem;
+    }
+
+    @include link(false, true);
+
+    b, strong {
+      color: $global-font-secondary-color;
+
+      [theme=dark] & {
+        color: $global-font-secondary-color-dark;
+      }
+    }
+  }
+
+  .post-meta {
+    font-size: .875rem;
+    color: $global-font-secondary-color;
+
+    span {
+      display: inline-block;
+    }
+
+    [theme=dark] & {
+      color: $global-font-secondary-color-dark;
+    }
+
+    @include link(false, true);
+
+    .author {
+      font-size: 1.05rem;
+    }
+  }
+
+  .post-footer {
+    margin-top: .4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .875rem;
+
+    @include link(false, false);
+
+    .post-tags {
+      padding: 0;
+
+      @include link(true, true);
+    }
+  }
+
   @import "../_partial/_archive/terms";
   @import "../_partial/_archive/tags";
 }
