@@ -58,7 +58,9 @@
 
 .archive-item-link {
   min-width: 10%;
+  max-width: 90%;
   overflow: hidden;
+  white-space:nowrap;
   text-overflow: ellipsis;
 
   &:hover {
@@ -76,7 +78,7 @@
 }
 
 .archive-item-date {
-  width: 8em;
+  width: 10%;
   text-align: right;
   color: $global-font-secondary-color;
 
