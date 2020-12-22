@@ -77,17 +77,18 @@
   }
 
   .summary {
-    padding: 2%;
+    display: block;
+    padding: 3%;
     color: $global-font-color;
     background: $global-background-color;
     border-radius: 15px;
-    box-shadow: (0 0 40px rgba(0, 0, 0, .1));
-    margin-top: 2%;
+    box-shadow: (0 0 10px rgba(0, 0, 0, .1));
+    margin-top: 3%;
 
     [theme=dark] & {
       color: $global-font-color-dark;
       background: $global-background-color-dark;
-      box-shadow: (0 0 40px rgba(64, 67, 72, 0.3));
+      box-shadow: (0 0 4px rgba(204, 207, 211, 0.3));
     }
 
     .featured-image-preview {
