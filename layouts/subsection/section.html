@@ -5,34 +5,25 @@
 
 {{- define "content" -}}
     {{- $params := .Scratch.Get "params" -}}
-    {{- $profile := .Site.Params.home.profile -}}
-    {{- $posts := .Site.Params.home.posts -}}
-    <div class="page subsection">
-        {{- /* Title */ -}}
-        <!-- 取消每一个 summary section 前面的『所有』-->
-        <h2 class="single-title animated pulse faster">
-            {{- .Params.Title | default (T .Section) | default .Section  -}}
-        </h2>
+        <div class="page archive">
+            {{- /* Title */ -}}
+            <h2 class="single-title animated pulse faster">
+                {{- .Params.Title | default (T .Section) | default .Section -}}
+            </h2>
 
-        {{- /* Posts */ -}}
-            {{- if ne $posts.enable false | and .Site.RegularPages -}}
-                {{- /* Paginate */ -}}
+            {{- /* Paginate */ -}}
+            {{- if .Pages -}}
                 {{- $pages := .Pages -}}
-                {{- if .Site.Params.page.hiddenFromHomePage -}}
-                    {{- $pages = where $pages "Params.hiddenfromhomepage" false -}}
-                {{- else -}}
-                    {{- $pages = where $pages "Params.hiddenfromhomepage" "!=" true -}}
-                {{- end -}}
-                {{- with $posts.paginate | default .Site.Params.paginate -}}
+                {{- with .Site.Params.section.paginate | default .Site.Params.paginate -}}
                     {{- $pages = $.Paginate $pages . -}}
                 {{- else -}}
                     {{- $pages = .Paginate $pages -}}
                 {{- end -}}
-                {{- range $pages.Pages -}}
-                    {{- .Render "summary" -}}
+                {{- range .Pages -}}
+                    {{- .Render "navipage" -}}
                 {{- end -}}
                 {{- partial "paginator.html" . -}}
             {{- end -}}
-            
-    </div>
+        </div>
+
 {{- end -}}
