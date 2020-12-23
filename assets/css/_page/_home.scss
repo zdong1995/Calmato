@@ -78,12 +78,12 @@
 
   .summary {
     display: block;
-    padding: 3%;
     color: $global-font-color;
     background: $global-background-color;
     border-radius: 15px;
     box-shadow: (0 0 10px rgba(0, 0, 0, .1));
     margin-top: 3%;
+    width: 100%;
 
     [theme=dark] & {
       color: $global-font-color-dark;
@@ -92,10 +92,10 @@
     }
 
     .featured-image-preview {
-      width: 100%;
+      width: 95%;
       padding: 30% 0 0;
       position: relative;
-      margin: 0.6rem auto;
+      margin: 0 auto;
       @include transition(transform 0.4s ease);
 
       img {
@@ -120,13 +120,17 @@
       font-size: 1.25rem;
       line-height: 140%;
       margin: 0.4rem 0;
+      padding-top: 0.5rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
     }
 
     .content {
       @include box(vertical);
       -webkit-line-clamp: 3;
-      margin-top: .3rem;
-      width: 100%;
+      width: 96%;
+      padding-left: 1rem;
+      padding-right: 1rem;
       overflow: hidden;
       text-overflow: ellipsis;
       @include overflow-wrap(break-word);
@@ -173,6 +177,9 @@
       justify-content: space-between;
       align-items: center;
       font-size: .875rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      padding-bottom: 0.8rem;
 
       @include link(false, false);
 

@@ -17,8 +17,11 @@
   }
 
   .post-meta {
-    font-size: .875rem;
+    font-size: .95rem;
     color: $global-font-secondary-color;
+    padding-left: 1rem;
+      padding-right: 1rem;
+    padding-bottom: 0.4rem;
 
     span {
       display: inline-block;
@@ -31,7 +34,7 @@
     @include link(false, true);
 
     .author {
-      font-size: 0.9rem;
+      font-size: 0.95rem;
     }
   }
 
@@ -40,7 +43,7 @@
 
     img {
       display: block;
-      max-width: 100%;
+      width: 100%;
       height: auto;
       margin: 0 auto;
       overflow: hidden;
