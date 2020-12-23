@@ -119,7 +119,7 @@
     }
 
     .single-title {
-      font-size: 1.3rem;
+      font-size: 1.1rem;
       line-height: 140%;
       margin: 0.3rem 0;
     }
@@ -128,6 +128,7 @@
       @include box(vertical);
       -webkit-line-clamp: 3;
       width: 100%;
+      font-size: 0.9rem;
       overflow: hidden;
       text-overflow: ellipsis;
       @include overflow-wrap(break-word);
@@ -173,7 +174,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      font-size: .875rem;
+      font-size: .85rem;
 
       @include link(false, false);
 
