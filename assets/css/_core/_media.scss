@@ -1,18 +1,18 @@
 @media only screen and (max-width: 1440px) {
   .page {
-    width: 85%;
+    width: 75%;
   }
 }
 
 @media only screen and (max-width: 1200px) {
   #toc-auto {
-    display:none;
+    display: none;
   }
 
   #toc-static {
     display: block;
   }
-
+  
   .page {
     width: 85%;
   }
