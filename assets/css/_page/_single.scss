@@ -17,7 +17,8 @@
   }
 
   .post-meta {
-    font-size: .95rem;
+    font-size: 1rem;
+    margin: 0.2rem;
     color: $global-font-secondary-color;
 
     span {
@@ -31,7 +32,7 @@
     @include link(false, true);
 
     .author {
-      font-size: 0.95rem;
+      font-size: 1rem;
     }
   }
 

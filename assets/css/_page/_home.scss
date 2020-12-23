@@ -67,6 +67,8 @@
 }
 
 .home[posts] {
+  width: 100%;
+
   .home-profile {
     @include transform(translateY(0));
     padding-top: 2rem;
@@ -83,7 +85,6 @@
     border-radius: 15px;
     box-shadow: (0 0 10px rgba(0, 0, 0, .1));
     margin-top: 3%;
-    width: 100%;
     padding: 1rem;
 
     [theme=dark] & {
@@ -118,15 +119,15 @@
     }
 
     .single-title {
-      font-size: 1.25rem;
+      font-size: 1.3rem;
       line-height: 140%;
-      margin: 0.4rem 0;
+      margin: 0.3rem 0;
     }
 
     .content {
       @include box(vertical);
       -webkit-line-clamp: 3;
-      width: 96%;
+      width: 100%;
       overflow: hidden;
       text-overflow: ellipsis;
       @include overflow-wrap(break-word);
