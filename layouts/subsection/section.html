@@ -23,8 +23,10 @@
                         {{- .Render "navipage" -}}
                     {{- end -}}
                     {{- partial "paginator.html" . -}}
+                {{- else -}}
+                    <!-- used for single page in the subsection -->
+                    {{- .Render "navipage" -}}
                 {{- end -}}
             </div>
         </div>
-
 {{- end -}}
