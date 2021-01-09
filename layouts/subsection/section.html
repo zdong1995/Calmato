@@ -10,6 +10,11 @@
             <h2 class="single-title animated pulse faster">
                 {{- .Params.Title | default (T .Section) | default .Section -}}
             </h2>
+            <div class="content">
+                {{- with .Content -}}
+                    {{- dict "Content" . "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome | partial "function/content.html" | safeHTML -}}
+                {{- end -}}
+            </div>
             <div class="list">
                 {{- /* Paginate */ -}}
                 {{- if .Pages -}}
