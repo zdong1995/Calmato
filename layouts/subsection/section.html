@@ -18,7 +18,7 @@
             <div class="list">
                 {{- /* Paginate */ -}}
                 {{- if .Pages -}}
-                    {{- $pages := .Pages -}}
+                    {{- $pages := .Pages.ByWeight -}}
                     {{- with .Site.Params.section.paginate | default .Site.Params.paginate -}}
                         {{- $pages = $.Paginate $pages . -}}
                     {{- else -}}
