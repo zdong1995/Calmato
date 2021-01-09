@@ -509,3 +509,11 @@ rss:
   Newtab: true
   Icon:
     Class: fas fa-rss fa-fw
+
+# 065: Wechat
+wechat:
+  Weight: 65
+  Title: Wechat
+  Newtab: true
+  Icon:
+    Class: fab fa-weixin
