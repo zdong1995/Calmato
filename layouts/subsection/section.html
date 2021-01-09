@@ -25,12 +25,12 @@
                         {{- $pages = .Paginate $pages -}}
                     {{- end -}}
                     {{- range .Pages -}}
-                        {{- .Render "navipage" -}}
+                        <!-- skip the subsections without "key" parameters in the identifier -->
+                        {{- if .Params.key -}}
+                            {{- .Render "navipage" -}}
+                        {{- end -}}
                     {{- end -}}
                     {{- partial "paginator.html" . -}}
-                {{- else -}}
-                    <!-- used for single page in the subsection -->
-                    {{- .Render "navipage" -}}
                 {{- end -}}
             </div>
         </div>
