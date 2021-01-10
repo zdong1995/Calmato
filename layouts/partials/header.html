@@ -57,27 +57,20 @@
                     </li>
                 {{- end -}}
                 {{- if .Site.IsMultiLingual -}}
-                <a href="javascript:void(0);" class="menu-item language" title="{{ T " selectLanguage" }}">
-                    {{- .Language.LanguageName -}}
-                    <i class="fas fa-chevron-right fa-fw"></i>
-                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;">
-                        {{- if eq .Kind "404" -}}
-                        {{- /* https://github.com/zdong1995/calmato/issues/378 */ -}}
-                        {{- range .Sites -}}
-                        {{- $link := printf "%v/404.html" .LanguagePrefix -}}
-                        <option value="{{ $link }}" {{ if eq . $.Site }} selected{{ end }}>
-                            {{- .Language.LanguageName -}}
-                        </option>
-                        {{- end -}}
-                        {{- else -}}
+                <li class="menu-item">
+                    <a class="menu-item">
+                        <i class="fas fa-globe"></i>&nbsp;{{- .Language.LanguageName -}} &nbsp;<i class="fas fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu">
                         {{- range .AllTranslations -}}
-                        <option value="{{ .RelPermalink }}" {{ if eq .Lang $.Lang }} selected{{ end }}>
-                            {{- .Language.LanguageName -}}
-                        </option>
+                        <li class="drop-items">
+                            <a href="{{ .RelPermalink }}" {{ if eq .Lang $.Lang }} selected{{ end }}>
+                                {{- .Language.LanguageName -}}
+                            </a>
+                        </li>
                         {{- end -}}
-                        {{- end -}}
-                    </select>
-                </a>
+                    </ul>
+                </li>
                 {{- end -}}
                 {{- if .Site.Params.search.enable -}}
                 <span class="menu-item search" id="search-desktop">
