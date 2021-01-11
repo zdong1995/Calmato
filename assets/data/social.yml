@@ -501,19 +501,28 @@ email:
   Icon:
     Class: far fa-envelope fa-fw
 
-# 064: RSS
-rss:
+# 064: Wechat
+wechat:
   Weight: 64
+  Title: Wechat
+  Newtab: true
+  Icon:
+    Class: fab fa-weixin
+
+# 065: sspai
+sspai:
+  Weight: 65
+  Title: Sspai
+  Newtab: true
+  Prefix: https://sspai.com/u/
+  Icon:
+    Src: svg/icons/sspai.svg
+
+# 066: RSS
+rss:
+  Weight: 66
   Url: /index.xml
   Title: RSS
   Newtab: true
   Icon:
     Class: fas fa-rss fa-fw
-
-# 065: Wechat
-wechat:
-  Weight: 65
-  Title: Wechat
-  Newtab: true
-  Icon:
-    Class: fab fa-weixin
