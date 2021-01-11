@@ -19,7 +19,9 @@
                 {{- else -}}
                     {{- $pages = .Paginate $pages -}}
                 {{- end -}}
+                
                 {{- range $pages.PageGroups -}}
+                    <h3>{{ .Key }}</h3>
                     {{- range .Pages -}}
                         {{- if .Pages -}}
                             <!-- TODO -->
